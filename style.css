@@ -1,0 +1,56 @@
+/* Color name:	red
+Hexadecimal value:	#FF0000
+RGB value:	rgb(255, 0, 0)
+HSL value:	hsl(0, 100%, 100%) */
+
+body {
+  background-color: gray;
+}
+
+
+p {
+  font-family: "Times New Roman"; /* Specific font name */
+  /* or */
+  font-family: serif; /* Generic name */
+  /* or */
+  font-family: "Arial", sans-serif; /* Comma-separated list */
+
+  font-size: 12px;
+  font-size: 1.5em;
+  font-size: 100%;
+  /* the one that comes last is the one that is used */
+
+  property: pink;
+}
+
+/* shorthands below */
+
+p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: sans-serif;
+
+}
+
+p {
+  font: italic bold 10px sans-serif;
+}
+
+/* above shorthands */
+
+
+p {
+  font-style: italic;
+font-weight: bold;
+font-size: 10px;
+font-family: sans-serif;
+}
+
+img {
+  border: 2px solid blue;
+}
+
+p em {
+  color: red;
+}
