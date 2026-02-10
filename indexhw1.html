@@ -8,12 +8,16 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
 
 <html>
 
+
 <link rel="stylesheet" href="style.css">
+  <head>
+    <!-- *Metadata goes in here -->
+    <title>Resume</title>
+    <meta name="author" content="Joyce Jiang" />
+    <meta name="description" content="Joyce Jiang's Resume" />
+  </head>
 
  <body>
-  <head>
-    <title> Resume </title>
-  </head>
 
   <header>
     <p> <strong> Joyce Jiang </strong> </p>
@@ -21,27 +25,28 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
   </header>
 
   <nav>
-    <a href="home.html">Home</a>
-    <a href="about.html">About</a>
+    <a href="classestaken.html">Classes Taken</a>
     <a href="contact.html">Contact</a>
   </nav>
 
   <main>
       
     <!-- professional placeholder image -->
-      <img src="assets/professionalplaceholder.webp" width="100" height="100" alt="Profestional placeholder">
+     <div id="center-image">
+      <img src="assets/professionalplaceholder.webp" width="150" height="150" alt="Professional placeholder">
+      </div>
 
+      
+    <section class="boxes">
+      <h3 class="maintopics"> <strong>Education </strong> </h3>
 
-    <section>
-      <h3> <strong>Education </strong> </h3>
-
-      <p>Hunter College, New York, NY.  Expected Graduation: June 2027 </p>
+      <p class="wherewhen">Hunter College, New York, NY.  Expected Graduation: June 2027 </p>
       <ul>
             <li>Bachelors of Arts in Computer Science | GPA: 3.6 </li>
             <li>Notable coursework: Intro to Applied Statistics, Operating Systems, Computer Theory 1 </li>
       </ul>
 
-      <p> Park East High School, New York, NY. Graduation: June 2023 </p>
+      <p class="wherewhen"> Park East High School, New York, NY. Graduation: June 2023 </p>
       <ul>
             <li>Salutatorian | GPA: 100.15 </li>
             <li>Notable coursework: AP Computer Science Principles, AP Calculus AB, Financial Literacy, Data Analytics</li>
@@ -50,18 +55,18 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
     </section>
 
 
-    <section>
-      <h3> Work Experience </h3>
+    <section class="boxes">
+      <h3 class="maintopics" id="underlining"> Work Experience </h3>
+      <h4 class="wherewhen"> Summer Youth Employment Program (SYEP) - Lady Survivor. New York, July-August 2025 </h4>
+            <p> <strong>Virtual Administrative Intern </strong></p>
 
-      <h4> Virtual Administrative Intern </h4>
-      <p> Summer Youth Employment Program (SYEP) - Lady Survivor. New York, July-August 2025 </p>
-      <ul>
+        <ul>
         <li> Supported nonprofit startup small business operations through administrative, marketing, and strategic development tasks. </li>
         <li> Designed marketing collateral, newsletters, flyers, and business cards using Canva and other tools.  </li>
         <li> Worked collaboratively with a virtual team to complete tasks and meet weekly goals. </li>
       </ul>
 
-      <h4> Weekend/Evening Childcare (Volunteer). New York, NY, 2022-2024</h4>
+      <h4 class="wherewhen"> Weekend/Evening Childcare (Volunteer). New York, NY, 2022-2024</h4>
       <ul>
         <li> Provided weekend care for an 8- year-old, prepared meals, assisted in school work, planned activities, and maintained safety. </li>
         <li> Demonstrated strong responsibility, time management, and interpersonal skills. </li>
@@ -78,23 +83,23 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
 
 
 
-    <section>
-      <h3> Activities </h3>
+    <section class="boxes">
+      <h3 class="maintopics"> Activities </h3>
 
-      <h4> Gender Sexuality Alliance Club (GSA).   New York, NY September 2022-2023  </h4>
+      <h4 class="wherewhen"> Gender Sexuality Alliance Club (GSA).   New York, NY September 2022-2023  </h4>
       <p> Member </p>
       <ul> 
         <li> Raised funds for LGBTQ organizations and supported institutional research (Columbia University, NYU) through surveys </li>
         <li>Fostered a safe, inclusive environment for students of all gender identities and sexual orientations.</li>
       </ul>
 
-      <h4> Datactation LLC - Cybersecurity Program.  New York, NY, Summer 2022 </h4>
+      <h4 class="wherewhen"> Datactation LLC - Cybersecurity Program.  New York, NY, Summer 2022 </h4>
       <p> Participant </p>
       <ul>
         <li> Completed an introductory course on cybersecurity topics such as: cryptography, risk management, and digital footprints </li>
       </ul>
 
-      <h4> Crochet Club.  New York, NY, September 2019-2023 </h4>
+      <h4 class="wherewhen"> Crochet Club.  New York, NY, September 2019-2023 </h4>
       <p> Member and Peer Instructor</p>
         <ul>
           <li> Mastered techniques including stitching and amigurumi. Completed 30+ projects with 50+ hours of hands-on work  </li>
@@ -103,10 +108,10 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
     </section>
 
 
-    <section>
-      <h3> Skills </h3>
+    <section class="boxes">
+      <h3 class="maintopics"> Skills </h3>
 
-      <table>
+      <table class="boxes">
             <thead>
               <tr>
                 <th> Technical & Digital Skills </th>
@@ -130,7 +135,7 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
             </tbody>
       </table>
 
-      <table>
+      <table class="boxes">
             <thead>
               <tr>
                 <th> Communication & Leadership </th>
@@ -148,7 +153,7 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
             </tbody>
       </table>
 
-      <table>
+      <table class="boxes">
             <thead>
               <tr>
                 <th> Professional & Administrative Skills </th>
@@ -165,7 +170,7 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
             </tbody>
       </table>
 
-      <table>
+      <table class="boxes">
             <thead>
               <tr>
                 <th> Creative Design & Craftsmanship </th>
@@ -182,8 +187,8 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
       </table>
     </section> 
 
-    <section>
-      <h3> Awards & Achievements </h3>
+    <section class="boxes">
+      <h3 class="maintopics"> Awards & Achievements </h3>
       <ul>
         <li> Peter F. Vallone Academic Scholarship (2023-2025) </li>
         <li> Salutatorian, Park East High School (2023) </li> 
@@ -194,7 +199,7 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
   </main>
  
 
-  <footer>
+  <footer class="boxes">
     <p> Author: Joyce Jiang</p>
     <p> Contact: person@gmail.com </p>
   </footer>
