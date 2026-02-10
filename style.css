@@ -41,7 +41,12 @@ nav {
   border-bottom: #000000 solid 2px;
 } 
 
-
+#navcontact {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #02050a;
+}
 
 .boxes {
   border: 2px solid rgb(0, 0, 0);

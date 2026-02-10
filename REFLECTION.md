@@ -10,6 +10,7 @@ https://github.com/joycej003/joycej003.github.io
 
 
 
+
 AI Attribution: If you used GenAI (ChatGPT, Claude, etc.) to help write code, you must include the prompt you used and explain one logic error the AI made that you had to fix manually.
 
 I did not use GenAI. 
