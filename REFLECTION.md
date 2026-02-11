@@ -15,6 +15,6 @@ Github is more for coding and collaborating. In github, multiple people can work
 AI Attribution: If you used GenAI (ChatGPT, Claude, etc.) to help write code, you must include the prompt you used and explain one logic error the AI made that you had to fix manually.
 
 I did not use GenAI to generate code. 
-I did use the automatic ai in visual studio code to help write code when it predicts what code I want to type. For example, when I wanted to add a class, after I manually added a class to a tag to some sections, it predicted it when I started typing again.
+I did use the automatic ai in visual studio code to help write code when it predicts what I want to type. For example, when I wanted to add a class to muiltple tags, after I manually added a class to some tags, it predicted it when I start typing again.
 
-An error it made was when I added a class and id in the same tag to do the specificity challenge and it wanted to delete the ' id=" ' so that it became only a class with combinated name of both the class and id name.
+An error it made was when I added a class and id in the same tag to do the specificity challenge and it wanted to delete the ' id=" ' so that it became only a class with a combined name of both the class and id name.
