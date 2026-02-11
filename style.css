@@ -15,9 +15,20 @@ header {
 }
 
 nav {
-  font-size: 14px;
-  text-align: center;
-  color: #02050a;
+  position: sticky;
+  justify-content: center;
+  top: 0;
+  background-color: rgb(221, 239, 255);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 17px;  
+
+}
+
+nav div{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 
@@ -27,13 +38,29 @@ nav {
   justify-content: center;
 }
 
-/* in the class .maintopics and id #underlining,
- they both underline the whole line. 
- The id won over the class because the id is more specific than the class.
-  */
-#underlining {
-  border-bottom: #000000 solid 5px;
+/* in the class .wherewhen and id #double,
+ they both underline the text but the id #double has a double underline while the class .wherewhen has a single underline.
+ The id #double won over the class because the id is more specific than the class. */
+
+#double{
+  font-size: 18px;
+  text-decoration: underline;
+  text-decoration-style: double;
 }
+
+.wherewhen {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.position {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .maintopics {
   font-size: 20px;
   font-weight: bold;
@@ -41,25 +68,14 @@ nav {
   border-bottom: #000000 solid 2px;
 } 
 
-#navcontact {
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
-  color: #02050a;
-}
 
 .boxes {
   border: 2px solid rgb(0, 0, 0);
-  margin: 15px;
+  margin: 20px;
   padding: 20px;
 }
 
-.wherewhen {
-  font-weight: bold;
-  font-style: italic;
-  font-size: 17px;
-  color: #000000;
-}
+
 
 p {
   font-family: "Times New Roman"; 
@@ -69,6 +85,14 @@ p {
   /* the one that comes last is the one that is used */
 
 }
+
+table td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 15px;
+  text-align: center;
+}
+
+
 
 
 img {
