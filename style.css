@@ -142,7 +142,7 @@ img {
    769px — 1024px: Small screens, laptops
  */
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   #navright {
     flex-direction: column;     
     align-items: left;          
