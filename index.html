@@ -2,8 +2,13 @@
 <!-- 
 Joyce Jiang
 CSCI 39548: Practical Web Development
-Homework 1: The ”Cloud-Native” Resume
-Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
+Homework 2: Responsive Design & Advanced Layouts 
+Assigned: Mar 1, 2026 Due: Mar 8, 2026 (11:59 PM EST)
+In this assignment, you will transition from simple document structure to modern web layouts. 
+You will build a Responsive Portfolio/Showcase site using CSS Flexbox and CSS Grid. 
+The focus is on creating a professional user interface that adapts to different screen sizes.
+
+https://main--fullstack-decal.netlify.app/docs/Lessons/Lesson4
 -->
 
 <html>
@@ -17,29 +22,31 @@ Assigned: Feb 5, 2026 Due: Feb 12, 2026 (11:59 PM EST)
   </head>
 
 <body>
-  <header>
-    <p> <strong> Joyce Jiang </strong> </p>
-    <p> New York, NY •  joycejiang4951@gmail.com  •  <a href="https://www.linkedin.com/"> Linkedin Profile  </p>
+  
+  <nav >
+      <article id="nameleft"> 
+        <p> Joyce Jiang </p>
+  
+        <!-- professional placeholder image -->
+       <img src="assets/placeholderimage.jpg" width="150" height="150" alt="Professional placeholder">
+      </article>
+
+      <article id="navright"> 
+        <a href="#top">Home</a> 
+        <a href="#education">Education</a> 
+        <a href="#workexperience">Work Experience</a> 
+        <a href="#activities">Activities</a> 
+        <a href="#skills">Skills</a> 
+        <a href="#awards">Awards & Achievements</a> 
+    </article>  
+  </nav>
+  
+
+  <header id="home">
+    <p> New York, NY •  joycejiang4951@gmail.com  •  <a href="https://www.linkedin.com/"> Linkedin Profile </a> </p>
   </header>
 
-  <nav>
-    <div >
-      <a href="#education">Education</a>
-      <a href="#workexperience">Work Experience</a>
-      <a href="#activities">Activities</a>
-      <a href="#skills">Skills</a>
-      <a href="#awards">Awards & Achievements</a>
-    </div>
-  </nav>
-
-
   <main>
-      
-    <!-- professional placeholder image -->
-     <div id="center-image">
-      <img src="assets/professionalplaceholder.webp" width="150" height="150" alt="Professional placeholder">
-      </div>
-
       
     <section class="boxes">
       <h3 class="maintopics" id="education"> Education </h3>

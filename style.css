@@ -4,7 +4,7 @@ RGB value:	rgb(255, 0, 0)
 HSL value:	hsl(0, 100%, 100%) */
 
 body {
-  background-color: rgb(192, 212, 232);
+  background-color: rgb(197, 223, 248);
 }
 
 header {
@@ -14,29 +14,74 @@ header {
   color: #080808;
 }
 
+
+
+/* .class {
+  display: flex
+  flex-direction: row | column | row-reverse | column-reverse
+  align-items: flex-start | center | flex-end
+  justify-content: flex-start | center | flex-end | space-between | space-around
+} */
+
+
 nav {
-  position: sticky;
-  justify-content: center;
-  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: bold;
   background-color: rgb(221, 239, 255);
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   padding: 10px;
-  font-size: 17px;  
-
+  font-size: 20px;  
+  
 }
 
-nav div{
+#navright {
+  position: sticky;
+  top: 0;
+
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items:flex-end;
+  flex-wrap: wrap;
+
+  padding: 5px;
+  gap: 18px;
+  
+}
+
+#navright a {
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+  text-decoration: dashed underline;
+}
+
+#navright a:hover {
+  background-color: white;
+  color: rgb(10, 120, 231);
+  border-radius: 4px;
 }
 
 
-#center-image {
+#nameleft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+nav article p{
+  margin : 0px;
+}
+
+/* #image {
   margin: 20px;
-  display: flex;
-  justify-content: center;
-}
+  justify-content: left;
+} */
 
 /* in the class .wherewhen and id #double,
  they both underline the text but the id #double has a double underline while the class .wherewhen has a single underline.
@@ -68,8 +113,15 @@ nav div{
   border-bottom: #000000 solid 2px;
 } 
 
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
 
 .boxes {
+  display: flex;
+  flex-direction: column;
   border: 2px solid rgb(0, 0, 0);
   margin: 20px;
   padding: 20px;
@@ -97,4 +149,6 @@ table td {
 
 img {
   border: 2px solid rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
 }
