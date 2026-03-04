@@ -158,7 +158,11 @@ img {
     font-size: 24px;
   }
 
-  .position table td{
+  .position{
+    font-size: 20px;
+  }
+  
+  table td{
     font-size: 20px;
   }
   
