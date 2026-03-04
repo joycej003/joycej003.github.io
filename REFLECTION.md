@@ -2,12 +2,28 @@
 Homework 2 Reflection & AI Attribution
 
 1. Explain the difference between flex-direction: row and flex-direction: column.
-    flex direction row 
-
+    When using flex direction row, the items are laid horizontally, flex firection column is laid vertically like a list.
 
 2. Why is it important to use relative units (like %, vh, or rem) instead of fixed pixels (px) for responsive design?
+    When on different devices, the dimensions are different, so using relative units can make it easier to adapt to the mobile phone, laptop, etc. It would scale porportionally, the fonts would be readable, and layouts can adjust to the devices screen. fixed pixels could leave to elements that overlap or get cut off.
 
 3. AI Attribution: List the prompt you used if you consulted GenAI. Identify one specific piece of CSS code the AI provided that you had to modify to make it work for your layout.
+    I ask chatgpt "how do i use @media in css for mobile and laptop? give me an example" and it showed:
+    /* Styles for laptops / larger screens (min-width 1024px) */
+    @media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        background-color: lightblue;
+    }
+    }
+    /* Styles for mobile phones (max-width 600px) */
+    @media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        background-color: lightyellow;
+    }
+    }
+    I didn't use body or change background color. I added sections for my classes and ids and changed the font sizes, max-width size, image width and length and changed things for my navigation bar.
 
 
 
