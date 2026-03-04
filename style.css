@@ -63,35 +63,6 @@ nav {
   border-radius: 4px;
 }
 
-/* 320px — 480px: Mobile devices
-   769px — 1024px: Small screens, laptops
- */
-
-@media (max-width: 768px) {
-  #navright {
-    flex-direction: column;     
-    align-items: center;          
-    gap: 10px;                    
-    padding: 10px;
-  }
-
-  #navright a {
-    font-size: 20px;             
-  }
-}
-
-
-#nameleft {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 5px;
-}
-
-nav article p{
-  margin: 0px;
-}
 
 
 /* in the class .wherewhen and id #double,
@@ -135,7 +106,6 @@ nav article p{
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 15px;
-  padding: au;
 }
 .grid-item {
   border: 1px black solid;
@@ -161,9 +131,81 @@ table td {
 
 
 
-
 img {
   border: 2px solid rgb(0, 0, 0);
   width: 100px;
   height: 100px;
 }
+
+
+/* 320px — 480px: Mobile devices
+   769px — 1024px: Small screens, laptops
+ */
+
+@media (max-width: 768px) {
+  #navright {
+    flex-direction: column;     
+    align-items: left;          
+    gap: 10px;                    
+    padding: 10px;
+  }
+
+  #navright a{
+    font-size: 20px;             
+  }
+
+  .maintopics {
+    font-size: 24px;
+  }
+
+  .position table td{
+    font-size: 20px;
+  }
+  
+  .wherewhen{
+    font-size: 18px;
+  }
+
+  #address{
+    font-size: 17px;
+  }
+
+
+  #nameleft img{
+    width: 70px;
+    height: 70px;
+  }
+
+  body{
+    font-size: 19px;
+  }
+
+  .gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+#nameleft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+nav article p{
+  margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
